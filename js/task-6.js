@@ -22,7 +22,7 @@ function createBoxes(amount) {
         `
         elementsArr.push(divEl)
     }
-    boxes.innerHTML = elemetsArr.join("")
+    boxes.innerHTML = elementsArr.join("")
     
 }
 
