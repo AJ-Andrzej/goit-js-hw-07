@@ -6,7 +6,7 @@ button.addEventListener("click", changeColor)
 
 
 function changeColor(event) {
-
+    event.preventDefault();
     const changedColor = getRandomHexColor()
 
     body.style = `background-color: ${changedColor}`
