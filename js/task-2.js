@@ -31,7 +31,7 @@ function createMarkup(arr) {
                     display: flex;
                     gap: 24px;
                     flex-wrap: wap;
-  }
+                }
                }
                </style>
                `).join("")
