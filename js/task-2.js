@@ -30,9 +30,8 @@ function createMarkup(arr) {
                     list-style: none;
                     display: flex;
                     gap: 24px;
-                    flex-wrap: wap;
+                    flex-wrap: wrap;
                 }
-               }
                </style>
                `).join("")
 }

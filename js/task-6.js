@@ -10,7 +10,7 @@ removeButton.addEventListener("click", removeEl)
 
 
 function createBoxes(amount) {
-    const elemetsArr = []
+    const elementsArr = []
     let width = 20;
     let height = 20;
     if (amount < Number(input.min) || amount > Number(input.max)) return 
@@ -20,7 +20,7 @@ function createBoxes(amount) {
         height += 10;
         const divEl = `<div style="background-color: ${color}; width: ${width}px; height: ${height}px"></div>
         `
-        elemetsArr.push(divEl)
+        elementsArr.push(divEl)
     }
     boxes.innerHTML = elemetsArr.join("")
     

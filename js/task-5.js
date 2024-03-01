@@ -1,16 +1,15 @@
 const body = document.querySelector("body")
 const button = document.querySelector(".change-color")
-const colorDiscription = document.querySelector(".color")
+const colorDescription = document.querySelector(".color")
 
 button.addEventListener("click", changeColor)
 
 
 function changeColor(event) {
-    event.preventDefault();
     const changedColor = getRandomHexColor()
 
     body.style = `background-color: ${changedColor}`
-    colorDiscription.textContent = `${changedColor}`
+    colorDescription.textContent = `${changedColor}`
     
 }
 
